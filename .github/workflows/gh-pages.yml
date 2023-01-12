@@ -37,7 +37,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: Sandro210/gh-pages
+        uses: Sandro210/gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
