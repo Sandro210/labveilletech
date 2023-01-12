@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://sandro210.github.io/labveilletech/'
 languageCode = 'en-us'
 title = 'Sandro'
 theme = "blist"
