@@ -2,3 +2,21 @@ baseURL = 'https://sandro210.github.io/labveilletech/'
 languageCode = 'en-us'
 title = 'Sandro'
 theme = "blist"
+
+
+DefaultContentLanguage = "fr"
+DefaultContentLanguageInSubdir = true
+
+[languages.fr]
+    contentDir = "content/fr" #French
+    weight = 2
+    languageName = "Français"
+    [languages.fr.params]
+      introTitle = "Salut et bienvenue !"
+      introSubtitle = "Je suis Sandro Picciola et j'aimerai me spécialier dans le marketing digital plutôt BtoB"
+
+
+[[languages.fr.menu.main]]
+        name = "À propos"
+        url = "page/about/"
+        weight = 2
